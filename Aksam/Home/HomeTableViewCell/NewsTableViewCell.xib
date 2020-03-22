@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="752" id="KGk-i7-Jjw" customClass="NewsTableViewCell" customModule="Aksam" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="780"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="780"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7RH-vL-86Y">
+                        <rect key="frame" x="15" y="15" width="345" height="750"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gündem" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k7E-g6-A1Z">
+                                <rect key="frame" x="15" y="20" width="99.5" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gL3-vi-6nC">
+                                <rect key="frame" x="260" y="20" width="70" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="Cbj-3O-oOm"/>
+                                    <constraint firstAttribute="width" constant="70" id="rIU-Ad-RWc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="Tümü">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gdh-3o-29g">
+                                <rect key="frame" x="15" y="65" width="315" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Eky-b4-uzh"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="314 milyon dolarlık Patriot sözleşmesi imzalandı" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Yu-4v-L1v">
+                                <rect key="frame" x="15" y="277" width="315" height="43"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hWb-0k-EXb">
+                                <rect key="frame" x="15" y="330" width="315" height="410"/>
+                                <subviews>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OfX-Zr-oK5">
+                                        <rect key="frame" x="0.0" y="0.0" width="315" height="95"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zja-VR-QSi">
+                                                <rect key="frame" x="0.0" y="0.0" width="165" height="95"/>
+                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="165" id="nMO-cC-1O1"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="314 milyon dolarlık Patriot sözleşmesi imzalandı" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3T-dJ-qLq">
+                                                <rect key="frame" x="185" y="5" width="120" height="85"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="l3T-dJ-qLq" firstAttribute="leading" secondItem="zja-VR-QSi" secondAttribute="trailing" constant="20" id="8KV-Yh-z9h"/>
+                                            <constraint firstAttribute="height" constant="95" id="EiP-wT-mVC"/>
+                                            <constraint firstItem="zja-VR-QSi" firstAttribute="leading" secondItem="OfX-Zr-oK5" secondAttribute="leading" id="Quf-Rl-UBx"/>
+                                            <constraint firstItem="l3T-dJ-qLq" firstAttribute="top" secondItem="OfX-Zr-oK5" secondAttribute="top" constant="5" id="StI-Dx-ngm"/>
+                                            <constraint firstAttribute="bottom" secondItem="zja-VR-QSi" secondAttribute="bottom" id="c67-5J-ece"/>
+                                            <constraint firstItem="zja-VR-QSi" firstAttribute="top" secondItem="OfX-Zr-oK5" secondAttribute="top" id="cSF-ST-f8e"/>
+                                            <constraint firstAttribute="bottom" secondItem="l3T-dJ-qLq" secondAttribute="bottom" constant="5" id="gY1-d5-Kfk"/>
+                                            <constraint firstAttribute="trailing" secondItem="l3T-dJ-qLq" secondAttribute="trailing" constant="10" id="nmb-y1-Vfh"/>
+                                        </constraints>
+                                    </view>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RG7-Pp-XL7">
+                                        <rect key="frame" x="0.0" y="105" width="315" height="95"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="P9U-KR-E1H">
+                                                <rect key="frame" x="0.0" y="0.0" width="165" height="95"/>
+                                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="165" id="Ghh-m4-8rm"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="314 milyon dolarlık Patriot sözleşmesi imzalandı" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z58-VD-4Fl">
+                                                <rect key="frame" x="185" y="5" width="120" height="85"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="P9U-KR-E1H" secondAttribute="bottom" id="AOW-ar-pYr"/>
+                                            <constraint firstAttribute="bottom" secondItem="z58-VD-4Fl" secondAttribute="bottom" constant="5" id="CGt-h5-bOt"/>
+                                            <constraint firstItem="z58-VD-4Fl" firstAttribute="top" secondItem="RG7-Pp-XL7" secondAttribute="top" constant="5" id="H6J-9G-ygr"/>
+                                            <constraint firstItem="P9U-KR-E1H" firstAttribute="leading" secondItem="RG7-Pp-XL7" secondAttribute="leading" id="Nzk-fH-Jjt"/>
+                                            <constraint firstItem="z58-VD-4Fl" firstAttribute="leading" secondItem="P9U-KR-E1H" secondAttribute="trailing" constant="20" id="RUv-Fk-9Pe"/>
+                                            <constraint firstAttribute="trailing" secondItem="z58-VD-4Fl" secondAttribute="trailing" constant="10" id="dU5-cL-Acm"/>
+                                            <constraint firstAttribute="height" constant="95" id="hSG-RR-HKW"/>
+                                            <constraint firstItem="P9U-KR-E1H" firstAttribute="top" secondItem="RG7-Pp-XL7" secondAttribute="top" id="ykf-G5-HpB"/>
+                                        </constraints>
+                                    </view>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wDg-Px-6r1">
+                                        <rect key="frame" x="0.0" y="210" width="315" height="95"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UeK-fJ-QeY">
+                                                <rect key="frame" x="0.0" y="0.0" width="165" height="95"/>
+                                                <color key="backgroundColor" red="0.86668753620000005" green="0.078392885630000006" blue="0.1516480446" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="165" id="6Sx-Ey-8Rp"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="314 milyon dolarlık Patriot sözleşmesi imzalandı" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pNz-Xk-ide">
+                                                <rect key="frame" x="185" y="5" width="120" height="85"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="pNz-Xk-ide" secondAttribute="trailing" constant="10" id="FDq-DZ-45a"/>
+                                            <constraint firstItem="UeK-fJ-QeY" firstAttribute="top" secondItem="wDg-Px-6r1" secondAttribute="top" id="G2m-J0-ZqZ"/>
+                                            <constraint firstAttribute="bottom" secondItem="UeK-fJ-QeY" secondAttribute="bottom" id="H4C-Cp-Tk8"/>
+                                            <constraint firstItem="UeK-fJ-QeY" firstAttribute="leading" secondItem="wDg-Px-6r1" secondAttribute="leading" id="IQ2-nc-rlT"/>
+                                            <constraint firstItem="pNz-Xk-ide" firstAttribute="top" secondItem="wDg-Px-6r1" secondAttribute="top" constant="5" id="Pu7-d8-gEJ"/>
+                                            <constraint firstAttribute="height" constant="95" id="QCz-66-45g"/>
+                                            <constraint firstAttribute="bottom" secondItem="pNz-Xk-ide" secondAttribute="bottom" constant="5" id="ntW-Ou-bhl"/>
+                                            <constraint firstItem="pNz-Xk-ide" firstAttribute="leading" secondItem="UeK-fJ-QeY" secondAttribute="trailing" constant="20" id="vpY-iD-epD"/>
+                                        </constraints>
+                                    </view>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T5i-rY-s4b">
+                                        <rect key="frame" x="0.0" y="315" width="315" height="95"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="I7I-G8-xRa">
+                                                <rect key="frame" x="0.0" y="0.0" width="165" height="95"/>
+                                                <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="165" id="Pva-3A-mcC"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="314 milyon dolarlık Patriot sözleşmesi imzalandı" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nuZ-O6-1Is">
+                                                <rect key="frame" x="185" y="5" width="120" height="85"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="nuZ-O6-1Is" firstAttribute="top" secondItem="T5i-rY-s4b" secondAttribute="top" constant="5" id="3Zp-CJ-s9F"/>
+                                            <constraint firstItem="I7I-G8-xRa" firstAttribute="leading" secondItem="T5i-rY-s4b" secondAttribute="leading" id="HNt-bw-6tf"/>
+                                            <constraint firstAttribute="trailing" secondItem="nuZ-O6-1Is" secondAttribute="trailing" constant="10" id="HOx-G7-WHb"/>
+                                            <constraint firstItem="nuZ-O6-1Is" firstAttribute="leading" secondItem="I7I-G8-xRa" secondAttribute="trailing" constant="20" id="SE7-PK-Lj0"/>
+                                            <constraint firstItem="I7I-G8-xRa" firstAttribute="top" secondItem="T5i-rY-s4b" secondAttribute="top" id="aWd-yr-PNM"/>
+                                            <constraint firstAttribute="bottom" secondItem="nuZ-O6-1Is" secondAttribute="bottom" constant="5" id="bDw-Nk-zko"/>
+                                            <constraint firstAttribute="height" constant="95" id="sxg-aS-Kn7"/>
+                                            <constraint firstAttribute="bottom" secondItem="I7I-G8-xRa" secondAttribute="bottom" id="wg0-J6-F1Z"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Yu-4v-L1v" firstAttribute="top" secondItem="Gdh-3o-29g" secondAttribute="bottom" constant="12" id="07g-Bq-IUL"/>
+                            <constraint firstItem="Gdh-3o-29g" firstAttribute="top" secondItem="k7E-g6-A1Z" secondAttribute="bottom" constant="15" id="3nN-dh-IqM"/>
+                            <constraint firstItem="gL3-vi-6nC" firstAttribute="top" secondItem="7RH-vL-86Y" secondAttribute="top" constant="20" id="7Ob-g1-1Af"/>
+                            <constraint firstItem="Gdh-3o-29g" firstAttribute="leading" secondItem="7RH-vL-86Y" secondAttribute="leading" constant="15" id="AbD-ip-ZFf"/>
+                            <constraint firstItem="6Yu-4v-L1v" firstAttribute="leading" secondItem="7RH-vL-86Y" secondAttribute="leading" constant="15" id="Kwd-Mr-Vjm"/>
+                            <constraint firstAttribute="trailing" secondItem="6Yu-4v-L1v" secondAttribute="trailing" constant="15" id="Mqj-Mn-6HP"/>
+                            <constraint firstAttribute="trailing" secondItem="gL3-vi-6nC" secondAttribute="trailing" constant="15" id="QNM-NG-P1d"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="hWb-0k-EXb" secondAttribute="bottom" constant="10" id="W0v-Gy-bCp"/>
+                            <constraint firstItem="hWb-0k-EXb" firstAttribute="top" secondItem="6Yu-4v-L1v" secondAttribute="bottom" constant="10" id="a5U-lj-Pul"/>
+                            <constraint firstAttribute="trailing" secondItem="Gdh-3o-29g" secondAttribute="trailing" constant="15" id="eUW-Yg-M0a"/>
+                            <constraint firstItem="gL3-vi-6nC" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="k7E-g6-A1Z" secondAttribute="trailing" constant="10" id="iB3-1S-b9s"/>
+                            <constraint firstItem="k7E-g6-A1Z" firstAttribute="leading" secondItem="7RH-vL-86Y" secondAttribute="leading" constant="15" id="ovf-gi-B8N"/>
+                            <constraint firstItem="hWb-0k-EXb" firstAttribute="leading" secondItem="7RH-vL-86Y" secondAttribute="leading" constant="15" id="qVO-cY-fop"/>
+                            <constraint firstAttribute="trailing" secondItem="hWb-0k-EXb" secondAttribute="trailing" constant="15" id="wmL-Hi-7VK"/>
+                            <constraint firstItem="k7E-g6-A1Z" firstAttribute="top" secondItem="7RH-vL-86Y" secondAttribute="top" constant="20" id="zbB-G2-HeX"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7RH-vL-86Y" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="EEM-7N-zm8"/>
+                    <constraint firstAttribute="trailing" secondItem="7RH-vL-86Y" secondAttribute="trailing" constant="15" id="hmC-y5-WEj"/>
+                    <constraint firstItem="7RH-vL-86Y" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="hvS-ic-An2"/>
+                    <constraint firstAttribute="bottom" secondItem="7RH-vL-86Y" secondAttribute="bottom" constant="15" id="hyx-QH-Epx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bgView" destination="7RH-vL-86Y" id="kQ2-cY-QvR"/>
+            </connections>
+            <point key="canvasLocation" x="177.536231884058" y="-12.723214285714285"/>
+        </tableViewCell>
+    </objects>
+</document>
