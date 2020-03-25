@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (5.0.5)
+  - iCarousel (1.8.3)
+  - SDWebImage (5.6.1):
+    - SDWebImage/Core (= 5.6.1)
+  - SDWebImage/Core (5.6.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0.0-beta.5)
+  - iCarousel
+  - SDWebImage (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - iCarousel
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  SDWebImage: 7edb9c3ea661e77a66661f7f044de8c1b55d1120
+
+PODFILE CHECKSUM: 93a650fb9581345fc4700bb7702be6a42f9dd5e9
+
+COCOAPODS: 1.8.4

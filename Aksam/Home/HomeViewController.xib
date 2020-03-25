@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -10,11 +10,14 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="Aksam" customModuleProvider="target">
             <connections>
                 <outlet property="blackBgView" destination="iNl-D6-Jm8" id="9I5-q1-gsy"/>
+                <outlet property="carouselView" destination="LpM-0J-Xfl" id="49e-Bk-mZM"/>
+                <outlet property="headerView" destination="QYg-D0-2aO" id="309-iB-XcT"/>
                 <outlet property="homeTableView" destination="Dsl-Gx-ol2" id="Few-6w-8Rt"/>
                 <outlet property="leftMenuCloseButtonOutlet" destination="mBe-qH-CQD" id="HUm-Ey-fyz"/>
                 <outlet property="leftMenuLeadingConstraint" destination="cUh-Im-0zg" id="7r8-No-Fnl"/>
                 <outlet property="leftMenuOpenButtonOutlet" destination="vN6-KO-eUw" id="heY-kH-nSN"/>
                 <outlet property="leftMenuTableView" destination="ZLj-pQ-AHa" id="XgV-tS-dnT"/>
+                <outlet property="pageControl" destination="qoE-HZ-Z7l" id="AgC-vs-cwh"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -52,7 +55,7 @@
                             </constraints>
                         </imageView>
                     </subviews>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstItem="vN6-KO-eUw" firstAttribute="leading" secondItem="u9x-Ra-Rn5" secondAttribute="leading" id="3vf-1i-vwL"/>
                         <constraint firstAttribute="trailing" secondItem="f3b-DW-NhY" secondAttribute="trailing" constant="1" id="7Wx-85-pqU"/>
@@ -67,7 +70,11 @@
                 </view>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Dsl-Gx-ol2">
                     <rect key="frame" x="0.0" y="116" width="414" height="746"/>
-                    <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="oPH-L6-RgP"/>
+                        <outlet property="delegate" destination="-1" id="pKr-u5-cXM"/>
+                    </connections>
                 </tableView>
                 <view clipsSubviews="YES" alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iNl-D6-Jm8">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="876"/>
@@ -113,6 +120,51 @@
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="137.68115942028987" y="152.67857142857142"/>
+        </view>
+        <view contentMode="scaleToFill" id="QYg-D0-2aO">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="305"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="eagberbgerb wfwer0gfw fwe fwefwe feq wef" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="knB-M8-0IO">
+                    <rect key="frame" x="20" y="0.0" width="374" height="57.333333333333336"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="65" id="hbs-l0-cMP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LpM-0J-Xfl" customClass="iCarousel">
+                    <rect key="frame" x="0.0" y="57.333333333333329" width="414" height="187.66666666666669"/>
+                    <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="vHH-dJ-Nto"/>
+                        <outlet property="delegate" destination="-1" id="JP9-TB-tTK"/>
+                    </connections>
+                </view>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="qoE-HZ-Z7l">
+                    <rect key="frame" x="20" y="245" width="374" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Tbq-GZ-bmc"/>
+                    </constraints>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="qoE-HZ-Z7l" firstAttribute="top" secondItem="LpM-0J-Xfl" secondAttribute="bottom" id="GHL-g2-h2h"/>
+                <constraint firstItem="Lga-6H-mWK" firstAttribute="trailing" secondItem="knB-M8-0IO" secondAttribute="trailing" constant="20" id="LJQ-pk-6wh"/>
+                <constraint firstItem="Lga-6H-mWK" firstAttribute="trailing" secondItem="LpM-0J-Xfl" secondAttribute="trailing" id="Li8-0C-LXn"/>
+                <constraint firstItem="knB-M8-0IO" firstAttribute="top" secondItem="QYg-D0-2aO" secondAttribute="top" id="Nda-wd-nYN"/>
+                <constraint firstItem="Lga-6H-mWK" firstAttribute="bottom" secondItem="qoE-HZ-Z7l" secondAttribute="bottom" constant="20" id="QRC-uW-aja"/>
+                <constraint firstItem="knB-M8-0IO" firstAttribute="leading" secondItem="Lga-6H-mWK" secondAttribute="leading" constant="20" id="Sxa-38-V6B"/>
+                <constraint firstItem="Lga-6H-mWK" firstAttribute="trailing" secondItem="qoE-HZ-Z7l" secondAttribute="trailing" constant="20" id="WGk-ke-qX7"/>
+                <constraint firstItem="LpM-0J-Xfl" firstAttribute="leading" secondItem="Lga-6H-mWK" secondAttribute="leading" id="eOG-Sw-QFx"/>
+                <constraint firstItem="qoE-HZ-Z7l" firstAttribute="leading" secondItem="Lga-6H-mWK" secondAttribute="leading" constant="20" id="hdC-Zm-uxP"/>
+                <constraint firstItem="LpM-0J-Xfl" firstAttribute="top" secondItem="knB-M8-0IO" secondAttribute="bottom" id="lcy-JM-QpE"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Lga-6H-mWK"/>
+            <point key="canvasLocation" x="826.08695652173924" y="-10.714285714285714"/>
         </view>
     </objects>
 </document>

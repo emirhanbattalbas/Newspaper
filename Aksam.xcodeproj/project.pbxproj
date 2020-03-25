@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A6741CC242BD028001F5CA4 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6741CA242BD027001F5CA4 /* APIRouter.swift */; };
+		1A6741CD242BD028001F5CA4 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6741CB242BD028001F5CA4 /* APIClient.swift */; };
+		1A6741D0242BD220001F5CA4 /* HomePageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6741CF242BD220001F5CA4 /* HomePageResponse.swift */; };
+		1A6741D3242BD70C001F5CA4 /* SectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6741D2242BD70C001F5CA4 /* SectionType.swift */; };
 		1A850D2C2427958000802A86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A850D2B2427958000802A86 /* AppDelegate.swift */; };
 		1A850D2E2427958000802A86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A850D2D2427958000802A86 /* SceneDelegate.swift */; };
 		1A850D352427958200802A86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A850D342427958200802A86 /* Assets.xcassets */; };
@@ -27,6 +31,10 @@
 		1A850D702427B7AD00802A86 /* LeftMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A850D6E2427B7AD00802A86 /* LeftMenuTableViewCell.xib */; };
 		1A850D742427BA9900802A86 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A850D722427BA9900802A86 /* NewsTableViewCell.swift */; };
 		1A850D752427BA9900802A86 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A850D732427BA9900802A86 /* NewsTableViewCell.xib */; };
+		1ACBEBB7242BC5F700CCAA52 /* SliderCarouselView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ACBEBB6242BC5F700CCAA52 /* SliderCarouselView.xib */; };
+		1ACBEBB9242BC5FE00CCAA52 /* SliderCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACBEBB8242BC5FE00CCAA52 /* SliderCarouselView.swift */; };
+		E4A147EE3256791167A74419 /* Pods_Aksam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2CB19E4185F75D0377638B /* Pods_Aksam.framework */; };
+		E9505A4C4EA68EF444284A6B /* Pods_AksamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD6AC1211CB07A9B4166236 /* Pods_AksamTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05C76E25676A50D8425F6968 /* Pods-AksamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AksamTests.debug.xcconfig"; path = "Target Support Files/Pods-AksamTests/Pods-AksamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A6741CA242BD027001F5CA4 /* APIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		1A6741CB242BD028001F5CA4 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		1A6741CF242BD220001F5CA4 /* HomePageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageResponse.swift; sourceTree = "<group>"; };
+		1A6741D2242BD70C001F5CA4 /* SectionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionType.swift; sourceTree = "<group>"; };
 		1A850D282427958000802A86 /* Aksam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aksam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A850D2B2427958000802A86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A850D2D2427958000802A86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +77,13 @@
 		1A850D6E2427B7AD00802A86 /* LeftMenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeftMenuTableViewCell.xib; sourceTree = "<group>"; };
 		1A850D722427BA9900802A86 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		1A850D732427BA9900802A86 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		1ACBEBB6242BC5F700CCAA52 /* SliderCarouselView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SliderCarouselView.xib; sourceTree = "<group>"; };
+		1ACBEBB8242BC5FE00CCAA52 /* SliderCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCarouselView.swift; sourceTree = "<group>"; };
+		3CD6AC1211CB07A9B4166236 /* Pods_AksamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AksamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		499041C30074F119C1D101E7 /* Pods-AksamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AksamTests.release.xcconfig"; path = "Target Support Files/Pods-AksamTests/Pods-AksamTests.release.xcconfig"; sourceTree = "<group>"; };
+		57B69EC13C275823A174C044 /* Pods-Aksam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aksam.debug.xcconfig"; path = "Target Support Files/Pods-Aksam/Pods-Aksam.debug.xcconfig"; sourceTree = "<group>"; };
+		7112FC331A10CF55AC2D5984 /* Pods-Aksam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aksam.release.xcconfig"; path = "Target Support Files/Pods-Aksam/Pods-Aksam.release.xcconfig"; sourceTree = "<group>"; };
+		EE2CB19E4185F75D0377638B /* Pods_Aksam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aksam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4A147EE3256791167A74419 /* Pods_Aksam.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,18 +99,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9505A4C4EA68EF444284A6B /* Pods_AksamTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A6741C9242BD009001F5CA4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1A6741CB242BD028001F5CA4 /* APIClient.swift */,
+				1A6741CA242BD027001F5CA4 /* APIRouter.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1A6741CE242BD20A001F5CA4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A6741CF242BD220001F5CA4 /* HomePageResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1A6741D1242BD6AC001F5CA4 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				1A6741D2242BD70C001F5CA4 /* SectionType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 		1A850D1F2427958000802A86 = {
 			isa = PBXGroup;
 			children = (
 				1A850D2A2427958000802A86 /* Aksam */,
 				1A850D412427958200802A86 /* AksamTests */,
 				1A850D292427958000802A86 /* Products */,
+				9D74AA11DB7700D0BA3F73A8 /* Pods */,
+				70EB363ECCEEFAADDC0FAEA4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +156,8 @@
 			children = (
 				1A850D522427968100802A86 /* App */,
 				1A850D4D242795B900802A86 /* Home */,
+				1A6741C9242BD009001F5CA4 /* Network */,
+				1A6741CE242BD20A001F5CA4 /* Model */,
 				1A850D532427968E00802A86 /* SupportingFile */,
 				1A850D342427958200802A86 /* Assets.xcassets */,
 				1A850D362427958200802A86 /* LaunchScreen.storyboard */,
@@ -127,6 +178,7 @@
 		1A850D4D242795B900802A86 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				1ACBEBB5242BC5B400CCAA52 /* CarouselView */,
 				1A850D712427BA3800802A86 /* HomeTableViewCell */,
 				1A850D6C2427B77F00802A86 /* LeftMenuCell */,
 				1A850D4E242795DC00802A86 /* HomeViewController.swift */,
@@ -147,6 +199,7 @@
 		1A850D532427968E00802A86 /* SupportingFile */ = {
 			isa = PBXGroup;
 			children = (
+				1A6741D1242BD6AC001F5CA4 /* Enums */,
 				1A850D672427AB0500802A86 /* Utils */,
 				1A850D56242796AE00802A86 /* Protocol */,
 				1A850D55242796A600802A86 /* Constant */,
@@ -210,6 +263,35 @@
 			path = HomeTableViewCell;
 			sourceTree = "<group>";
 		};
+		1ACBEBB5242BC5B400CCAA52 /* CarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				1ACBEBB8242BC5FE00CCAA52 /* SliderCarouselView.swift */,
+				1ACBEBB6242BC5F700CCAA52 /* SliderCarouselView.xib */,
+			);
+			path = CarouselView;
+			sourceTree = "<group>";
+		};
+		70EB363ECCEEFAADDC0FAEA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE2CB19E4185F75D0377638B /* Pods_Aksam.framework */,
+				3CD6AC1211CB07A9B4166236 /* Pods_AksamTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D74AA11DB7700D0BA3F73A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57B69EC13C275823A174C044 /* Pods-Aksam.debug.xcconfig */,
+				7112FC331A10CF55AC2D5984 /* Pods-Aksam.release.xcconfig */,
+				05C76E25676A50D8425F6968 /* Pods-AksamTests.debug.xcconfig */,
+				499041C30074F119C1D101E7 /* Pods-AksamTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -217,9 +299,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A850D472427958200802A86 /* Build configuration list for PBXNativeTarget "Aksam" */;
 			buildPhases = (
+				DBE0B423760665C3FB309871 /* [CP] Check Pods Manifest.lock */,
 				1A850D242427958000802A86 /* Sources */,
 				1A850D252427958000802A86 /* Frameworks */,
 				1A850D262427958000802A86 /* Resources */,
+				DE7AA2A18B45DBCB9DAA53B7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +318,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A850D4A2427958200802A86 /* Build configuration list for PBXNativeTarget "AksamTests" */;
 			buildPhases = (
+				1E86DE70D988D965EF2B8F7A /* [CP] Check Pods Manifest.lock */,
 				1A850D3A2427958200802A86 /* Sources */,
 				1A850D3B2427958200802A86 /* Frameworks */,
 				1A850D3C2427958200802A86 /* Resources */,
@@ -296,6 +381,7 @@
 				1A850D352427958200802A86 /* Assets.xcassets in Resources */,
 				1A850D51242795DC00802A86 /* HomeViewController.xib in Resources */,
 				1A850D752427BA9900802A86 /* NewsTableViewCell.xib in Resources */,
+				1ACBEBB7242BC5F700CCAA52 /* SliderCarouselView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,15 +394,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E86DE70D988D965EF2B8F7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AksamTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBE0B423760665C3FB309871 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aksam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE7AA2A18B45DBCB9DAA53B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aksam/Pods-Aksam-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aksam/Pods-Aksam-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Aksam/Pods-Aksam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1A850D242427958000802A86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ACBEBB9242BC5FE00CCAA52 /* SliderCarouselView.swift in Sources */,
+				1A6741CD242BD028001F5CA4 /* APIClient.swift in Sources */,
 				1A850D5F242798A000802A86 /* URLComponents+Extension.swift in Sources */,
 				1A850D61242798A000802A86 /* UICollectionView+Extension.swift in Sources */,
 				1A850D582427982B00802A86 /* Reusable.swift in Sources */,
 				1A850D60242798A000802A86 /* String+Extension.swift in Sources */,
+				1A6741CC242BD028001F5CA4 /* APIRouter.swift in Sources */,
 				1A850D63242798A000802A86 /* UIViewController+Extensions.swift in Sources */,
 				1A850D64242798A000802A86 /* UITextField+Extension.swift in Sources */,
 				1A850D2C2427958000802A86 /* AppDelegate.swift in Sources */,
@@ -326,6 +479,8 @@
 				1A850D6F2427B7AD00802A86 /* LeftMenuTableViewCell.swift in Sources */,
 				1A850D50242795DC00802A86 /* HomeViewController.swift in Sources */,
 				1A850D62242798A000802A86 /* UITableView+Extension.swift in Sources */,
+				1A6741D0242BD220001F5CA4 /* HomePageResponse.swift in Sources */,
+				1A6741D3242BD70C001F5CA4 /* SectionType.swift in Sources */,
 				1A850D692427AB1100802A86 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,6 +631,7 @@
 		};
 		1A850D482427958200802A86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57B69EC13C275823A174C044 /* Pods-Aksam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +650,7 @@
 		};
 		1A850D492427958200802A86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7112FC331A10CF55AC2D5984 /* Pods-Aksam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -512,6 +669,7 @@
 		};
 		1A850D4B2427958200802A86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05C76E25676A50D8425F6968 /* Pods-AksamTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -534,6 +692,7 @@
 		};
 		1A850D4C2427958200802A86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 499041C30074F119C1D101E7 /* Pods-AksamTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

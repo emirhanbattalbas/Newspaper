@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+struct Constant {
+    
+    static let baseUrl = "http://webservice.turkmedya.com.tr/aksamtv"
+}

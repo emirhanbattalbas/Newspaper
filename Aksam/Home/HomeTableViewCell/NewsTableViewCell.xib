@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,8 +16,8 @@
                 <rect key="frame" x="0.0" y="0.0" width="375" height="780"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7RH-vL-86Y">
-                        <rect key="frame" x="15" y="15" width="345" height="750"/>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7RH-vL-86Y">
+                        <rect key="frame" x="15" y="15" width="345" height="758"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gündem" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k7E-g6-A1Z">
                                 <rect key="frame" x="15" y="20" width="99.5" height="30"/>
@@ -38,6 +38,7 @@
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gdh-3o-29g">
                                 <rect key="frame" x="15" y="65" width="315" height="200"/>
+                                <color key="backgroundColor" red="0.86668753620000005" green="0.078392885630000006" blue="0.1516480446" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="Eky-b4-uzh"/>
                                 </constraints>
@@ -188,18 +189,34 @@
                             <constraint firstAttribute="trailing" secondItem="hWb-0k-EXb" secondAttribute="trailing" constant="15" id="wmL-Hi-7VK"/>
                             <constraint firstItem="k7E-g6-A1Z" firstAttribute="top" secondItem="7RH-vL-86Y" secondAttribute="top" constant="20" id="zbB-G2-HeX"/>
                         </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </view>
                 </subviews>
                 <constraints>
                     <constraint firstItem="7RH-vL-86Y" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="EEM-7N-zm8"/>
                     <constraint firstAttribute="trailing" secondItem="7RH-vL-86Y" secondAttribute="trailing" constant="15" id="hmC-y5-WEj"/>
                     <constraint firstItem="7RH-vL-86Y" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="hvS-ic-An2"/>
-                    <constraint firstAttribute="bottom" secondItem="7RH-vL-86Y" secondAttribute="bottom" constant="15" id="hyx-QH-Epx"/>
+                    <constraint firstAttribute="bottom" secondItem="7RH-vL-86Y" secondAttribute="bottom" constant="7" id="hyx-QH-Epx"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="bgView" destination="7RH-vL-86Y" id="kQ2-cY-QvR"/>
+                <outlet property="newsTypeTitleLabel" destination="k7E-g6-A1Z" id="2CP-zR-DGn"/>
+                <outletCollection property="newsImagesViewArray" destination="Gdh-3o-29g" collectionClass="NSMutableArray" id="Mci-Ha-9kz"/>
+                <outletCollection property="newsImagesViewArray" destination="zja-VR-QSi" collectionClass="NSMutableArray" id="4J0-Ys-00k"/>
+                <outletCollection property="newsImagesViewArray" destination="P9U-KR-E1H" collectionClass="NSMutableArray" id="QUC-Zj-YZC"/>
+                <outletCollection property="newsImagesViewArray" destination="UeK-fJ-QeY" collectionClass="NSMutableArray" id="UVa-GC-mka"/>
+                <outletCollection property="newsImagesViewArray" destination="I7I-G8-xRa" collectionClass="NSMutableArray" id="H8p-LS-a4g"/>
+                <outletCollection property="newsTitleLabelArray" destination="6Yu-4v-L1v" collectionClass="NSMutableArray" id="84d-pB-yAF"/>
+                <outletCollection property="newsTitleLabelArray" destination="l3T-dJ-qLq" collectionClass="NSMutableArray" id="lGe-SH-UOG"/>
+                <outletCollection property="newsTitleLabelArray" destination="z58-VD-4Fl" collectionClass="NSMutableArray" id="Irh-WO-9d8"/>
+                <outletCollection property="newsTitleLabelArray" destination="pNz-Xk-ide" collectionClass="NSMutableArray" id="MYE-NF-VKN"/>
+                <outletCollection property="newsTitleLabelArray" destination="nuZ-O6-1Is" collectionClass="NSMutableArray" id="r2S-Oy-4Wl"/>
             </connections>
             <point key="canvasLocation" x="177.536231884058" y="-12.723214285714285"/>
         </tableViewCell>
